@@ -1,0 +1,126 @@
+# Системные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации IDE/редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Файлы, создаваемые утилитами
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Файлы, относящиеся к компиляции
+*.obj
+*.pyc
+*.pyo
+*.class
+*.o
+*.so
+
+# Лог-файлы
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Каталоги зависимости
+node_modules/
+jspm_packages/
+
+# Каталоги окружения Python
+__pycache__/
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Исключения для конкретных языков программирования
+
+## Python
+# Конфигурационные файлы
+*.env
+.env
+.env.*
+*.ini
+*.cfg
+
+# Локальные директории пакетов и скомпилированные файлы
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+## Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+## .NET
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.app
+*.ipa
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.mst
+*.msm
+*.prm
+*.tmp
+*.cache
+*.log
+
+## Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Рабочие каталоги
+workspace.xml
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Исключения для инструментов сборки
+.DS_Store
+Thumbs.db
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Локальные зависимости
+node_modules/
+jspm_packages/
+
+# Сборочные каталоги
+dist/
+build/
+
+# Папки кэша
+.cache/
